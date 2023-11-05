@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(67, 188, 11, 0.948);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.calculator-box{
+    background-color: dimgray;
+    width: 300px;
+    height: 450px;
+    border: 4px solid ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 12px;
+}
+.Button{
+    height: 60px;
+    width: 60px;
+    border-radius: 10px; 
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    border: 2px solid;
+    cursor: pointer;
+    transition: all 0.7s ease-out;
+}
+.Button:hover{
+    background-color: #dddddd1c;
+}
+
+.Buttoncontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+#calcname{
+    align-self: center;
+    font-size: 30PX;
+    text-shadow: 10px 10px 40px greenyellow;
+    font-weight:bolder;
+    color: rgb(255, 242, 0);
+    /* text-decoration: underline; */
+}
+.calculator-box input{
+    height: 2.5rem;
+    background-color: lightslategrey;
+    margin: 5px 0px;
+    height: 60px;
+    margin-top: 20px;
+    border: 1PX solid ;
+    border-radius: 5px;
+    font-size: 4vh;
+    white-space: nowrap;
+    overflow-x:hidden;
+    text-overflow: ellipsis;
+}
+#equal{
+    width: 140px;
+    background-color: darkgoldenrod;
+    
+}
+.spclButton{
+    font-size: 30px;
+    
+    border: 2px solid gold;
+}

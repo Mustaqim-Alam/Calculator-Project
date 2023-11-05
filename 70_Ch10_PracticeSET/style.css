@@ -1,0 +1,8 @@
+.navbar{
+    background-color: black !important;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+

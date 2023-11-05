@@ -1,0 +1,20 @@
+.red{
+    background-color: red;
+    color: rgb(204, 191, 191);
+}
+
+
+.yellow{
+    background-color: yellow;
+    color: white;
+}
+
+.green{
+    background-color: green;
+    color: white;
+}
+
+
+.text-black{
+    color: black;
+}

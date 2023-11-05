@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  color: rgb(96, 160, 137);
+  font-weight: bolder;
+  /* font-family: 'Kanit', sans-serif; */
+  font-family: 'Kanit', sans-serif;
+font-family: 'Merriweather', serif;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  /* position: relative; */
+}
+
+.todoContainer {
+  background-color: rgba(130, 78, 209, 0.989);
+  height: auto;
+  /* height: 70vh; */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.todoContainer input {
+  width: 40vw;
+  height: 3rem;
+  /* border-radius: 13px; */
+}
+
+.addButton{
+  width: 7rem;
+  height: 2rem;
+  border-radius: 133px;
+  font-weight: bolder;
+  font-family: 'Kanit', sans-serif;
+}
+.addButton:hover{
+  background-color: rgb(118, 168, 118);
+};
+
+
+
+.todoContainer ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+.todoContainer ul li {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  border-bottom: 2px solid #9c134e;
+}
